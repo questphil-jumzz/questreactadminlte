@@ -76,10 +76,14 @@ const Menu = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a href="/" className="nav-link">
+                  <NavLink
+                    to="/maintenance/doctors"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
                     <i className="far fa-circle nav-icon" />
                     <p>Doctors</p>
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <a href="/" className="nav-link">
