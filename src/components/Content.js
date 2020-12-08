@@ -7,10 +7,10 @@ import Users from "../pages/Maintenance/Users";
 const Content = () => {
   return (
     <div className="content-wrapper">
-      <Route exact path="/dashboard" component={Dashboard}/>
-      <Route exact path="/maintenance/users" component={Users}/>
-      <Route exact path="/maintenance/doctors" component={Doctors}/>
-      
+      <Route exact path="/dashboard" component={Dashboard} />
+      <Route exact path="/maintenance/users" component={Users} />
+      <Route exact path="/maintenance/doctors" component={Doctors} />
+      asdf
     </div>
   );
 };
