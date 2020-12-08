@@ -10,6 +10,7 @@ const Content = () => {
       <Route exact path="/dashboard" component={Dashboard}/>
       <Route exact path="/maintenance/users" component={Users}/>
       <Route exact path="/maintenance/doctors" component={Doctors}/>
+      
     </div>
   );
 };

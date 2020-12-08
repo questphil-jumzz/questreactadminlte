@@ -77,7 +77,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/maintenance/doctors"
+                    to="/maintenance/users"
                     className="nav-link"
                     activeClassName="active"
                   >
